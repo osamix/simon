@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Vibur|Graduate');
+
+body {
+  background-color: #333333;
+  font-family: 'Vibur', cursive;
+  color: #c4c4c4;
+}
+
+.simon {
+  width: 500px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:2%;
+  background-color: #1c1c1c;
+  border-radius: 20px;
+  border: 2px solid silver;
+}
+
+.title {
+  font-size: 42px;
+  padding: 20px;
+  }
+
+.power {
+  font-size: 24px;
+  padding: 20px;
+  }
+
+.counter {
+  background-color: #003A19;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  height: 75px;
+  width: 120px;
+  font-size: 50px;
+  font-family: 'Graduate', cursive;
+  color: #20854C;
+  border: 2px solid silver;
+}
+
+.lamp {
+  display: block;
+  margin: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #4B0011;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+
+.lamp-on {
+ background-color: #80BD5C;
+}
+
+.start {
+  background-color: #235378;
+}
+
+.strict {
+  background-color: #AD2A46;
+}
+
+.pwr-but {
+  background-color: #7C0505;
+  padding: 5px;
+  border: 2px solid silver;
+  border-radius: 100%;
+  box-shadow: 0 10px #656565;
+}
+
+.pwr-but:active {
+  box-shadow: 0 6px #555555;
+  transform: translateY(4px);
+}
+
+.pb-pushed {
+  background-color: #046304;
+  box-shadow: 0 6px #555555;
+  transform: translateY(4px);
+}
+
+.button {
+  margin: auto;
+  display: block;
+  padding: 15px;
+  font-size: 25px;
+  font-family: 'Graduate', cursive;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #c4c4c4;
+  border: 2px solid silver;
+  border-radius: 15px;
+  box-shadow: 0 10px #656565;
+}
+
+button:focus {outline:0;}
+
+.button:active {
+  box-shadow: 0 6px #555555;
+  transform: translateY(4px);
+}
+
+.push {
+ cursor: pointer; 
+}
+
+.push:active {
+ cursor: pointer;
+ filter: brightness(180%);
+}
+
+.push-active {
+ cursor: pointer;
+ filter: brightness(180%);
+}
+
+.gbgreen {
+  background: linear-gradient(135deg, #589C30, #235D00);
+  height: 150px;
+  width: 200px;
+  margin: 20px 0px 12px auto;
+  border-radius: 30px 0 0 0;
+  border: 2px solid silver;
+}
+
+.gbred {
+  background: linear-gradient(45deg, #4B0011, #AC2A48);
+  height: 150px;
+  width: 200px;
+  margin: 20px auto 12px 0px;
+  border-radius: 0 30px 0 0;
+  border: 2px solid silver;
+}
+
+.gbyellow {
+  background: linear-gradient(45deg, #BB952D, #523C00);
+  height: 150px;
+  width: 200px;
+  margin: 12px 0px auto auto;
+  border-radius: 0 0 0 30px;
+  border: 2px solid silver;
+}
+
+.gbblue {
+  background: linear-gradient(135deg, #020639, #2D3381);
+  height: 150px;
+  width: 200px;
+  margin: 12px auto auto 0px;
+  border-radius: 0 0 30px 0;
+  border: 2px solid silver;
+}

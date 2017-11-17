@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simon the Game</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="simon">
+      <div class="row">
+        <div class="col-xs-8 col-sm-8 title text-center">Simon the Game</div>
+        <div class="col-xs-4 col-sm-4 power text-left">Power
+        <button class="pwr-but glyphicon glyphicon-off"></button>
+        </div>
+        </div>
+      <div class="row">
+      <div class="col-xs-4 col-sm-4">
+        <button class="button start">start</button></div>
+        <div class="col-xs-4 col-sm-4">
+        <button class="button strict">
+          <div class="row">
+            <div class="col-xs-8 col-sm-8">strict</div>
+            <div class="col-xs-4 col-sm-4">
+            <div class="lamp" id="lamp-light"></div>
+            </div>
+          </div>
+          </button>
+          </div>
+        <div class="col-xs-4 col-sm-4">
+          <div class="counter text-center"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-sm-6"><div class="push gbgreen" id="1"></div></div>
+        <div class="col-xs-6 col-sm-6"><div class="push gbred" id="2"></div></div>
+      </div>
+          <div class="row">
+      <div class="col-xs-6 col-sm-6"><div class="push gbyellow" id="3"></div></div>
+        <div class="col-xs-6 col-sm-6"><div class="push gbblue" id="4"></div></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
